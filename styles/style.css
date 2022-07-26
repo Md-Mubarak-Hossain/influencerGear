@@ -1,0 +1,416 @@
+/* ..........................................
+
+google fonts poppins import.
+
+.............................................*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/* end font part */
+
+/* ....................
+
+    body for all
+
+....................... */
+body {
+    font-family: 'Poppins', sans-serif;
+
+    width: 1440px;
+    border-radius: 0px;
+    overflow-x: hidden;
+    border: 1px solid red;
+    margin: 0%;
+
+
+}
+
+/* ....................................................................
+
+header section
+
+......................................................................*/
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 120px;
+    width: 100%;
+    height: 100px;
+    margin: 0px 120px;
+
+}
+
+.influncer-products {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.menu {
+
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.menu a {
+    margin-left: 34px;
+    text-decoration: none;
+    color: black;
+}
+
+.menu .fa-magnifying-glass,
+.fa-cart-shopping {
+    color: rgb(77, 74, 74);
+}
+
+/* .........................................................
+
+header section end
+
+............................................................*/
+
+/*.............................................................
+              container for all parent section
+............................................................... */
+.container {
+    margin: 0px 120px;
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.article-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.article-journey {
+    height: 270px;
+    width: 582px;
+    border-radius: 41px;
+
+
+}
+
+.article-heading {
+    height: 133px;
+    font-size: 52px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 16.1px;
+}
+
+.article-paragraph {
+    height: 60.9000244140625px;
+    width: 505px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 16.1px;
+}
+
+.link-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    height: 44px;
+    width: 196px;
+    border-radius: 41px;
+    padding: 10px 24px 10px 24px;
+
+    background: rgba(224, 44, 109, 1);
+    color: white;
+
+}
+
+.camera {
+    background: url(/images/Circle\ design.svg);
+
+    width: 475px;
+    height: 475px;
+}
+
+.camera img {
+    width: 410px;
+    height: 404px;
+}
+
+/*.........................................................
+
+        commercial section
+
+........................................................... */
+.commercial {
+    height: 110px;
+    width: 1110px;
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+
+
+}
+
+.border {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    height: 39.60700225830078px;
+    width: 986.46728515625px;
+}
+
+.coomercial-site {
+    display: grid;
+
+    grid-template-columns: repeat(7, 1fr);
+    justify-content: space-evenly;
+
+
+
+
+}
+
+.commercial-site img {
+
+    height: 25.2838134765625px;
+    width: 83.99983978271484px;
+
+
+}
+
+/* .......................................................
+
+        popolar collection
+
+..........................................................*/
+.popolar-collection-container {
+    height: 1662px;
+    width: 1047px;
+    border-radius: [object Object]px;
+    text-align: center;
+
+}
+
+.popolar-collection {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.popolar-collection h2 {
+    height: 70px;
+    width: 262px;
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 600;
+
+}
+
+.collections {
+    display: grid;
+
+}
+
+.collection {
+    display: grid;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 476px;
+    width: 329px;
+    border-radius: 15px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 10px solid rgb(245, 244, 244);
+}
+
+.collection img {
+    height: 256px;
+    width: 300px;
+    border-radius: 5px;
+
+}
+
+.flex-triod {
+    height: 40px;
+    width: 151px;
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+
+.dollar {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.collection .rating {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 0px;
+
+}
+
+.fa-star,
+.fa-star-half-stroke {
+    color: gold;
+}
+
+
+.paragraph {
+
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+
+
+
+}
+
+/* .........................................
+
+collection-popolar end
+
+............................................*/
+/* ..........................................
+
+see more 
+
+............................................*/
+.see-more {
+    display: flex;
+    justify-content: flex-end;
+}
+
+a {
+    text-decoration: none;
+    color: magenta;
+
+}
+
+/* ...............................................
+
+see more end
+
+..................................................*/
+
+/* ...............................................
+
+features products
+
+..................................................*/
+.feature {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.link-button-2 {
+    text-decoration: none;
+    color: white;
+    background-color: rgba(224, 44, 109, 1);
+    border-radius: 0px;
+    padding: 10px 40px;
+
+}
+
+/* ..................................................
+
+footer
+
+......................................................*/
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+}
+
+.influencer-product {
+    display: flex;
+    flex-direction: column;
+    height: 139px;
+    width: 262px;
+
+    align-items: center;
+
+}
+
+
+.info-heading {
+    height: 36px;
+    width: 243px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 0;
+}
+
+.copyright {
+    color: white;
+    height: 24px;
+    width: 262px;
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 0;
+
+
+
+}
+
+.social-link {
+    height: 32px;
+    width: 176px;
+    color: white;
+
+
+}
+
+/* ........................................................
+
+Mobile responsive
+
+..........................................................*/
+@media only screen and (max-width:400px) {
+    .article-1 {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .popolar-collection {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .feature {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+
+    }
+}
